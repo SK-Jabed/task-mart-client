@@ -1,5 +1,4 @@
-# Task Management Application
-### TaskMart
+# TaskMart Client 
 
 ## 📌 Project Overview
 The **TaskMart Client** is the frontend of a modern task management application. It provides an interactive **drag-and-drop** interface to manage tasks in three categories: **To-Do, In Progress, and Done**. Built with **React, Vite.js, and TailwindCSS**, it ensures a smooth and efficient user experience.

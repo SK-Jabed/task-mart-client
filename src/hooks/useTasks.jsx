@@ -7,7 +7,7 @@ export const useTasks = () => {
   const { user } = useAuth();
   const queryClient = useQueryClient();
 
-  // Fetch tasks for logged-in user
+  // Fetch Tasks for Logged-in User
   const { data: tasks, isLoading } = useQuery({
     queryKey: ["tasks", user?.email],
     queryFn: async () => {
