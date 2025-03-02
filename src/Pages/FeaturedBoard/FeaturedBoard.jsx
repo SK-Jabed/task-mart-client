@@ -6,6 +6,8 @@ import AddTaskModal from "../../modal/AddTaskModal";
 import { FaPlusCircle } from "react-icons/fa";
 import LoadingSpinner from "../../components/LoadingSpinner";
 
+
+
 const FeaturedBoard = () => {
   const { tasks, isLoading, updateTaskCategory, updateTaskPositions } =
     useTasks();
