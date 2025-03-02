@@ -5,14 +5,14 @@ import Footer from "../components/Footer/Footer";
 
 const Root = () => {
   return (
-    <>
+    <div>
       <Toaster />
       <Navbar />
       <div className="min-h-screen">
         <Outlet />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
