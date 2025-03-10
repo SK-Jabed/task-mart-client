@@ -86,7 +86,7 @@ const EditTaskModal = ({ isOpen, setIsOpen, task }) => {
           {/* Buttons */}
           <div className="mt-6 flex justify-end gap-3">
             <button
-              className="px-4 py-2 bg-red-600 text-gray-100 rounded-lg hover:bg-red-700 cursor-pointer transition font-medium"
+              className="px-4 py-2 bg-red-600 text-gray-100 rounded-lg hover:bg-red-700 transition font-medium cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Cancel
