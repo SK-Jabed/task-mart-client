@@ -28,7 +28,7 @@ const FeaturedBoard = () => {
       return;
     }
 
-    // Reorder within the same category
+    // Reorder within The Same Category
     if (source.droppableId === destination.droppableId) {
       const categoryTasks = tasks
         .filter((task) => task.category === source.droppableId)
