@@ -66,9 +66,9 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
           </div>
 
           {/* Buttons */}
-          <div className="mt-8 flex justify-end gap-4">
+          <div className="mt-8 flex justify-end gap-3">
             <button
-              className="px-6 py-2 bg-red-600 hover:bg-red-700 text-gray-100 rounded-lg cursor-pointer transition-all duration-300"
+              className="px-6 py-2 bg-red-600 hover:bg-red-700 text-gray-100 rounded-lg transition-all duration-300 cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Cancel
