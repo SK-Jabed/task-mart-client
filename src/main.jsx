@@ -7,6 +7,9 @@ import AuthProvider from "./Provider/AuthProvider";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ReactModal from "react-modal";
 
+
+
+
 ReactModal.setAppElement("#root");
 
 const queryClient = new QueryClient();
