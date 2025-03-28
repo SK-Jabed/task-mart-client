@@ -9,7 +9,7 @@ const PrivateRoute = ({ children }) => {
   const location = useLocation();
 
   useEffect(() => {
-    //  data fetch
+    //  Data fetch
     if (user && user?.email) {
       setTimeout(() => {
         setDataLoading(false);
