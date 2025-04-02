@@ -4,10 +4,6 @@ import SignIn from "../Pages/SIgnIn/SignIn";
 import FeaturedBoard from "../Pages/FeaturedBoard/FeaturedBoard";
 import PrivateRoute from "./PrivateRoute";
 
-
-
-
-
 const router = createBrowserRouter([
   {
     path: "/",
